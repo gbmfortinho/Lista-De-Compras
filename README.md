@@ -36,10 +36,10 @@ Este projeto foi desenvolvido com HTML, CSS e JavaScript puro, focando em:
 
 ```bash
 .
-├── index.html
-├── styles.css
-├── script.js
-└── icons.css
+|- index.html
+|- styles.css
+|- script.js
+`- icons.css
 ```
 
 ## Como executar localmente
