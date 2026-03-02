@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <title>Lista De Compras</title>
+</head>
+<body>
+  <main class="page">
+    <img
+      class="logo"
+      src="icons.css\logo.png"
+      alt="Quicklist"
+    >
+
+    <section class="list-app" aria-label="Lista de compras">
+      <button type="button" class="back-button" id="backButton">Voltar</button>
+      <h1 class="title">Compras da semana</h1>
+
+      <form class="add-form" id="addForm">
+        <input
+          id="itemInput"
+          type="text"
+          placeholder="Adicione um novo item"
+          autocomplete="off"
+          aria-label="Adicionar novo item"
+        >
+        <button type="submit" class="add-button">Adicionar item</button>
+      </form>
+
+      <p class="form-error" id="formError" role="alert" aria-live="polite"></p>
+
+      <ul class="items" id="itemsList" aria-live="polite"></ul>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-hidden="true">
+    <span class="toast-text" id="toastText">O item foi removido da lista</span>
+    <button type="button" class="toast-close" id="closeToast" aria-label="Fechar alerta">x</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
