@@ -39,7 +39,7 @@ Este projeto foi desenvolvido com HTML, CSS e JavaScript puro, focando em:
 |- index.html
 |- styles.css
 |- script.js
-`- icons.css
+`- assets/
 ```
 
 ## Como executar localmente
